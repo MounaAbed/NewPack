@@ -7,7 +7,7 @@
 
 <!-- badges: end -->
 
-The goal of NewPack is to …
+The goal of NewPack is to change your life !
 
 ## Installation
 
@@ -24,7 +24,7 @@ pak::pak("MounaAbed/NewPack")
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
-library(NewPack)
+# library(NewPack)
 ## basic example code
 ```
 
