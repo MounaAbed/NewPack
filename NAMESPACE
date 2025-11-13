@@ -2,7 +2,10 @@
 
 S3method(plot,mvpdf)
 export(inv_C)
+export(mvnpdf_invC)
 export(mvnpdfoptim)
+export(mvnpdfoptimC)
+export(mvnpdfsmartC)
 export(mvpdf)
 export(mvpdfsmart)
 importFrom(Rcpp,sourceCpp)
