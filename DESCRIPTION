@@ -8,9 +8,13 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
-Imports: mvtnorm
+Imports: 
+    mvtnorm,
+    Rcpp
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 URL: https://github.com/MounaAbed/NewPack, https://mounaabed.github.io/NewPack/
 BugReports: https://github.com/MounaAbed/NewPack/issues
+LinkingTo: 
+    Rcpp
