@@ -1,11 +1,11 @@
 # Multivariate Gaussian Distribution
 
-Description : calculate
+Description
 
 ## Usage
 
 ``` r
-mvpdf(x, mean = rep(0, nrow(x)), varcoM = diag(nrow(x)), Log = TRUE)
+mvpdfsmart(x, mean = rep(0, nrow(x)), varcovM = diag(nrow(x)), Log = TRUE)
 ```
 
 ## Arguments
@@ -18,13 +18,13 @@ mvpdf(x, mean = rep(0, nrow(x)), varcoM = diag(nrow(x)), Log = TRUE)
 
   a vector of means
 
-- varcoM:
-
-  a variance-covariance matrix
-
 - Log:
 
   logical parameter, with default value to TRUE.
+
+- varcoM:
+
+  a variance-covariance matrix
 
 ## Value
 
