@@ -1,6 +1,6 @@
 #' Multivariate Gaussian Distribution
 #'
-#' Description : calculate
+#' Description
 #'
 #' Details
 #'

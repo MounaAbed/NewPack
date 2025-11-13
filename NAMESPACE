@@ -2,4 +2,5 @@
 
 S3method(plot,mvpdf)
 export(mvpdf)
+export(mvpdfsmart)
 importFrom(mvtnorm,dmvnorm)
