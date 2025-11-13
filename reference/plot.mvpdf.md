@@ -30,7 +30,5 @@ Nothing is returned, only a plot is given.
 
 ``` r
 pdfvalues <- mvpdf(x=matrix(seq(-3, 3, by = 0.1), nrow = 1), Log=FALSE)
-#> Error in handler$value(value, visible): class name too long in 'pkgdown_print'
 plot(pdfvalues)
-#> Error in plot(pdfvalues): class name too long in 'plot'
 ```
