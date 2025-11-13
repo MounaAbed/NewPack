@@ -22,7 +22,8 @@ mvpdf <- function(x,mean=rep(0,nrow(x)),varcoM = diag(nrow(x)),Log=TRUE){
 
   y <- NULL
   for(j in 1:n){
-    yj <- -p/2 * log(2*pi) - 0.5 * LogDetvarcoM - 0.5 * t(x0[,j]) %*% x0[,j]
+    yj <- -p/2 * log(2*pi) - 0.5 * LogDetvarcoM -
+      0.5 * t(x0[,j]) %*% Rinv %*% x0[,j]
     y <- c(y,yj)
   }
 
@@ -31,6 +32,6 @@ mvpdf <- function(x,mean=rep(0,nrow(x)),varcoM = diag(nrow(x)),Log=TRUE){
   }
 
   res <- list(x=x,y=y)
-  class(res) <- list(x=x,y=y)
+  class(res) <- "mvpdf"
   return(res)
 }
