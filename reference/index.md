@@ -10,6 +10,8 @@
   : Multivariate Gaussian Distribution
 - [`mvnpdfoptimC()`](https://mounaabed.github.io/NewPack/reference/mvnpdfoptimC.md)
   : inverting a matrix
+- [`mvnpdfoptim_para()`](https://mounaabed.github.io/NewPack/reference/mvnpdfoptim_para.md)
+  : Multivariate Gaussian Distribution
 - [`mvnpdfsmartC()`](https://mounaabed.github.io/NewPack/reference/mvnpdfsmartC.md)
   : inverting a matrix
 - [`mvpdf()`](https://mounaabed.github.io/NewPack/reference/mvpdf.md) :
