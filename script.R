@@ -100,10 +100,12 @@ plot(mb,log="y")
 plan(multisession(workers = 3))
 n <- 10000
 mb <- microbenchmark::microbenchmark(
-  mypkgr::mvnpdfsmart(x=matrix(1.96, nrow = 2, ncol = n), Log=FALSE),
-  mypkgr::mvnpdfsmart_par(x=matrix(1.96, nrow = 2, ncol = n), Log=FALSE),
+  NewPack::mvnpdfoptim(x=matrix(1.96, nrow = 2, ncol = n), Log=FALSE),
+  NewPack::mvnpdfoptim_para(x=matrix(1.96, nrow = 2, ncol = n), Log=FALSE),
   times=20)
 mb
+plot(mb)
 
+# pbapply package => permet d'avoir une barre de progression
 
 
